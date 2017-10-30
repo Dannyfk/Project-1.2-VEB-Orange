@@ -1,0 +1,151 @@
+body {
+	background: #EFCBA7;
+	font-family: 'Spicy Rice', cursive;
+}
+p, a {
+	font-size: 16px;
+	font-family: 'Noto Sans', sans-serif;
+}
+/*Guestbook tables*/
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 10px;
+	text-align: left;
+}
+table {
+	width: 100%;
+	margin-top: 3%;
+}
+/*Google maps*/
+#map {
+	height: 300px;
+	width: 100%;
+	border: solid #ff9400 2px;
+}
+#news {
+	padding-left: 7%;
+}
+/*css til vores tekst divs*/
+.textbox {
+	color: white;
+	border: solid #ff9400 2px;
+	border-radius: 50%;
+	margin-top: 3%;
+	padding: 12%;
+	padding-top: 6%;
+	min-height: 300px;
+	overflow: hidden;
+}
+/*css til vores divs*/
+.divbox {
+	color: white;
+	border: solid #ff9400 2px;
+	border-radius: 20px;
+	padding: 2%;
+	overflow: hidden;
+	font-size: 16px;
+	margin-top: 3%;
+	
+}
+
+/*css til vores divs på præsentationssiden*/
+.divboxpresentation {
+	color: white;
+	border: solid #ff9400 2px;
+	border-radius: 20px;
+	padding: 2%;
+	font-size: 16px;
+	min-height: 500px;
+	margin-top: 3%
+}
+#border {
+	border: solid #ff9400 2px;
+}
+.imageborder {
+	border: solid #ff9400 2px;
+	border-radius: 20px;
+}
+a {
+	color: #ff9400;
+}
+/*Gradient headings*/
+h1, h2, h3, h4 {
+	background: #A15102; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(#A15102, #DF8300, #D8D716); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#A15102, #DF8300, #D8D716); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#A15102, #DF8300, #D8D716); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#A15102, #DF8300, #D8D716); /* Standard syntax */
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+h1 {
+	font-size: 50px;
+}
+h2 {
+	font-size: 45px;
+}
+h3 {
+	font-size: 40px;
+}
+.grad {
+	background: red; /* For browsers that do not support gradients */
+	background: -webkit-radial-gradient(circle, #0079DD, #006bff); /* Safari */
+	background: -o-radial-gradient(circle, #0079DD, #006bff); /* Opera 11.6 to 12.0 */
+	background: -moz-radial-gradient(circle, #0079DD, #006bff); /* Firefox 3.6 to 15 */
+	background: radial-gradient(circle, #0079DD, #006bff); /* Standard syntax */
+}
+/*css til carousel*/
+.carousel-inner > .item > img,  .carousel-inner > .item > a > img {
+	width: 100%;
+	margin: auto;
+	max-height: 500px;
+}
+/*Css til navigationsbar*/
+
+.navbarstyle {
+	background-color: #ff9400;
+	color: white;
+	box-shadow: 7px 7px 5px grey;
+}
+.navbar-default .navbar-toggle {
+	color: white;
+	border: 0px;
+}
+/* Adjust Menu colors - Normal */
+.navbar .nav > li > a {
+	color: white;
+	text-shadow: none;
+}
+/* Adjust Menu colors - Hover */
+.navbar .nav > li > a:hover {
+	color: black;
+	text-shadow: none;
+}
+/* hamburger menu */
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: white;
+}
+.navbar-brand {
+	margin-top: -20px;
+}
+
+@media screen and (max-width: 600px) {
+#news {
+	padding-left: 0%;
+}
+.carousel-inner > .item > img,  .carousel-inner > .item > a > img {
+	width: 100%;
+	margin: auto;
+	max-height: 280px;
+}
+}
+
+@media screen and (min-width: 995px) {
+.divbox {
+	min-height: 400px;
+}
+#news {
+	padding-left: 10%;
+}
+}
